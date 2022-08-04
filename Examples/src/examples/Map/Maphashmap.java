@@ -17,8 +17,6 @@ public class Maphashmap {
 		a.put(1.2,7);
 		a.put(8,1.3);
 	System.out.println(a);
-	//a.clear();
-	//System.out.println(a);
 	System.out.println(a.get("a"));
 	System.out.println(a.get("Ravi"));
 	System.out.println(a.get(4));

@@ -7,8 +7,8 @@ public class ExceptionHandeling {
 		
 	try 
 	{
-	int i=10/0;	
-		
+	int i=0/0;	
+	System.out.println(i);	
 	}catch(Exception e) 
 	{
 	System.out.println(e.getMessage());	

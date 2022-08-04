@@ -1,6 +1,6 @@
 package examples.Encapsulation;
 
-public class Dataencapsulation extends Encapsulation {
+public class Dataencapsulation{
 
 	public static void main(String[] args) 
 	{

@@ -3,7 +3,7 @@ package examples.Abstraction;
 public class Abstract4 extends Abstract3 {
 
 	public void name(){
-		System.out.println(" DOG ");
+		System.out.println("DOG");
 	}
 	public void hi() {
 		System.out.println("hi");
