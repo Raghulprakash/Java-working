@@ -2,8 +2,10 @@ package examples.MultipleInheritance;
 
 public interface ClassB {
 
-	void see();
-	void bye();
+	void sub();
+
+	void divide();
+
 	void forloop();
 
 }

@@ -1,6 +1,5 @@
 package practice;
 
-public interface Multiple 
-{
-void vehicaltype();
+public interface Multiple {
+	void vehicaltype();
 }

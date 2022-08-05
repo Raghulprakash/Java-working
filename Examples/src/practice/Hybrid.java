@@ -1,8 +1,7 @@
 package practice;
 
-public interface Hybrid 
-{
+public interface Hybrid {
 
-void a();	
+	void a();
 
 }

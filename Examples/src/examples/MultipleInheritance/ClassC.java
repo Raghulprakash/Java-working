@@ -2,36 +2,40 @@ package examples.MultipleInheritance;
 
 public class ClassC implements ClassA, ClassB {
 
-	public void print() {
+	public void add() {
 		int a, b, c;
 		a = 4;
 		b = 6;
 		c = a + b;
-		System.out.println(c);
+		System.out.println("add:" + c);
+		System.out.println(" ");
 	}
 
-	public void see() {
+	public void sub() {
 		int a, b, c;
 		a = 4;
 		b = 6;
 		c = a - b;
-		System.out.println(c);
+		System.out.println("sub:" + c);
+		System.out.println(" ");
 	}
 
-	public void hi() {
+	public void multiply() {
 		int a, b, c;
 		a = 4;
 		b = 6;
 		c = a * b;
-		System.out.println(c);
+		System.out.println("multiply:" + c);
+		System.out.println(" ");
 	}
 
-	public void bye() {
+	public void divide() {
 		int a, b, c;
 		a = 4;
 		b = 6;
 		c = a / b;
-		System.out.println(c);
+		System.out.println("divide:" + c);
+		System.out.println(" ");
 	}
 
 	public void ifclass() {
@@ -43,23 +47,23 @@ public class ClassC implements ClassA, ClassB {
 		} else {
 			System.out.println("no");
 		}
-
+		System.out.println(" ");
 	}
+
 	public void forloop() {
-		int a,i;
+		int a, i;
 		a = 4;
-		for(i=0;i<=a;i++)
-		{
-		System.out.println(i);
+		for (i = 0; i <= a; i++) {
+			System.out.println(i);
 		}
 	}
 
 	public static void main(String[] args) {
 		ClassC a = new ClassC();
-		a.print();
-		a.see();
-		a.hi();
-		a.bye();
+		a.add();
+		a.sub();
+		a.multiply();
+		a.divide();
 		a.ifclass();
 		a.forloop();
 	}

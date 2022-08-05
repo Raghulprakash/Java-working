@@ -1,6 +1,5 @@
 package practice;
 
-public interface Multiple2 
-{
-void fuel();
+public interface Multiple2 {
+	void fuel();
 }

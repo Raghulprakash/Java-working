@@ -2,8 +2,10 @@ package examples.MultipleInheritance;
 
 public interface ClassA {
 
-	void print();
-	void hi();
+	void add();
+
+	void multiply();
+
 	void ifclass();
-	
+
 }

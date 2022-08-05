@@ -4,7 +4,7 @@ public class Mapiterator {
 
 	public static void main(String[] args) 
 	{
-	HashMap a = new HashMap();
+	HashMap a = new HashMap();// generic type
 	a.put(1,"A");
 	a.put(2,"B");
 	a.put(3,"C");
@@ -24,7 +24,7 @@ public class Mapiterator {
 	}
 	
 	}*/
-	Iterator<Map.Entry> iterator= a.entrySet().iterator();
+	Iterator<Map.Entry> iterator= a.entrySet().iterator();// generic type
 	while(iterator.hasNext())
 	{
 	Map.Entry b =iterator.next();
